@@ -1,0 +1,55 @@
+{
+  "seed": 1729,
+  "train_dates": [
+    "2024-01-01",
+    "2024-01-02",
+    "2024-01-03",
+    "2024-01-04",
+    "2024-01-05",
+    "2024-01-06",
+    "2024-01-07"
+  ],
+  "validation_dates": [
+    "2024-01-08",
+    "2024-01-09",
+    "2024-01-10"
+  ],
+  "test_dates": [
+    "2024-01-11",
+    "2024-01-12",
+    "2024-01-13",
+    "2024-01-14"
+  ],
+  "warmup_seconds": 60,
+  "max_quote_age_ms": 1000,
+  "train_stride_seconds": 5,
+  "target_horizons_seconds": [
+    1,
+    5,
+    10
+  ],
+  "primary_horizon_seconds": 1,
+  "ridge_alpha": 100.0,
+  "hgb": {
+    "max_iter": 100,
+    "max_depth": 3,
+    "max_leaf_nodes": 15,
+    "l2_regularization": 10.0,
+    "learning_rate": 0.05,
+    "early_stopping": false
+  },
+  "bootstrap_repetitions": 5000,
+  "signal_threshold_quantile": 0.9,
+  "trade_grid_seconds": 10,
+  "hold_seconds": 5,
+  "entry_delays_seconds": [
+    0,
+    1,
+    2
+  ],
+  "fees_bps_per_side": [
+    0.0,
+    1.0,
+    5.0
+  ]
+}

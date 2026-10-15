@@ -1,0 +1,930 @@
+[
+  {
+    "symbol": "BTCUSDT",
+    "date": "2024-01-01",
+    "book_rows": 11986235,
+    "book_rejected": 0,
+    "out_of_order_or_duplicate": 0,
+    "trade_rows": 761222,
+    "trade_rejected": 0,
+    "publication_delay_max_ms": 1343,
+    "grid_rows": 86400,
+    "fresh_quote_rows": 86396,
+    "missing_initial_quote_rows": 1,
+    "publication_delay_sample_p50_ms": 6.0,
+    "publication_delay_sample_p99_ms": 14.0,
+    "trade_availability_lag_ms": 1000,
+    "sources": [
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/bookTicker/BTCUSDT/BTCUSDT-bookTicker-2024-01-01.zip",
+        "file": "BTCUSDT-bookTicker-2024-01-01.zip",
+        "sha256": "f9d281b949ac10aa59af3a7b07f41b4e640a8ecc76210f97c4c25ae7c8173e7c",
+        "bytes": 128284409,
+        "checksum_verified": true
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/aggTrades/BTCUSDT/BTCUSDT-aggTrades-2024-01-01.zip",
+        "file": "BTCUSDT-aggTrades-2024-01-01.zip",
+        "sha256": "ed5c4326e6ccdec61504bc7d9bed594c4fe0a88f845c7a6ec5b934c97c01cb1c",
+        "bytes": 10064410,
+        "checksum_verified": true
+      }
+    ],
+    "processed_sha256": "63576980c3fb81a7b436de344fe0c69c2b8f5c15ceda421d51f0744cd55012db"
+  },
+  {
+    "symbol": "ETHUSDT",
+    "date": "2024-01-01",
+    "book_rows": 7376016,
+    "book_rejected": 0,
+    "out_of_order_or_duplicate": 0,
+    "trade_rows": 504953,
+    "trade_rejected": 0,
+    "publication_delay_max_ms": 1269,
+    "grid_rows": 86400,
+    "fresh_quote_rows": 86393,
+    "missing_initial_quote_rows": 1,
+    "publication_delay_sample_p50_ms": 6.0,
+    "publication_delay_sample_p99_ms": 14.0,
+    "trade_availability_lag_ms": 1000,
+    "sources": [
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/bookTicker/ETHUSDT/ETHUSDT-bookTicker-2024-01-01.zip",
+        "file": "ETHUSDT-bookTicker-2024-01-01.zip",
+        "sha256": "8b0ba77526b089682e541fd4d80dcf7d228f50227ec8e5c81ca7431e0e98eb2f",
+        "bytes": 90252677,
+        "checksum_verified": true
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/aggTrades/ETHUSDT/ETHUSDT-aggTrades-2024-01-01.zip",
+        "file": "ETHUSDT-aggTrades-2024-01-01.zip",
+        "sha256": "f12265534d8e9841e3755b85563420d7333618253f762cd7c63dbe8ee37dacc1",
+        "bytes": 7130159,
+        "checksum_verified": true
+      }
+    ],
+    "processed_sha256": "8feb1ccf7412732bcf27f704862a35dcf9b37332163a7dfe84ed128d7e4ed2aa"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "date": "2024-01-02",
+    "book_rows": 18518655,
+    "book_rejected": 0,
+    "out_of_order_or_duplicate": 0,
+    "trade_rows": 1677641,
+    "trade_rejected": 0,
+    "publication_delay_max_ms": 1310,
+    "grid_rows": 86400,
+    "fresh_quote_rows": 86396,
+    "missing_initial_quote_rows": 1,
+    "publication_delay_sample_p50_ms": 6.0,
+    "publication_delay_sample_p99_ms": 16.0,
+    "trade_availability_lag_ms": 1000,
+    "reordered_before_aggregation": true,
+    "source_rows_before_exact_dedup": 18518655,
+    "exact_duplicate_rows_removed": 0,
+    "canonical_order": "event_time, update_id; exact duplicate rows removed",
+    "sources": [
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/bookTicker/BTCUSDT/BTCUSDT-bookTicker-2024-01-02.zip",
+        "file": "BTCUSDT-bookTicker-2024-01-02.zip",
+        "sha256": "a90b5a86f55456db60171b51dba1585dd107c6b7030bef6f9bfe0f85e79f2f8b",
+        "bytes": 198717709,
+        "checksum_verified": true
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/aggTrades/BTCUSDT/BTCUSDT-aggTrades-2024-01-02.zip",
+        "file": "BTCUSDT-aggTrades-2024-01-02.zip",
+        "sha256": "522c7cc5e73632ce8f375546323450a966cf8eb58509e68ba66cb77503fb6617",
+        "bytes": 22014977,
+        "checksum_verified": true
+      }
+    ],
+    "processed_sha256": "5a96a3fd2ebd63e544e995897802a4c705e9e8dcb69eac1d229014fdd3709188"
+  },
+  {
+    "symbol": "ETHUSDT",
+    "date": "2024-01-02",
+    "book_rows": 11352152,
+    "book_rejected": 0,
+    "out_of_order_or_duplicate": 0,
+    "trade_rows": 1056586,
+    "trade_rejected": 0,
+    "publication_delay_max_ms": 1161,
+    "grid_rows": 86400,
+    "fresh_quote_rows": 86397,
+    "missing_initial_quote_rows": 1,
+    "publication_delay_sample_p50_ms": 6.0,
+    "publication_delay_sample_p99_ms": 13.0,
+    "trade_availability_lag_ms": 1000,
+    "sources": [
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/bookTicker/ETHUSDT/ETHUSDT-bookTicker-2024-01-02.zip",
+        "file": "ETHUSDT-bookTicker-2024-01-02.zip",
+        "sha256": "e59a677116f53b1a8464130aec4c5b39ac213d3323b0f6ebe20d2384725a3c73",
+        "bytes": 137764054,
+        "checksum_verified": true
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/aggTrades/ETHUSDT/ETHUSDT-aggTrades-2024-01-02.zip",
+        "file": "ETHUSDT-aggTrades-2024-01-02.zip",
+        "sha256": "70df143566a17fe7ad8bb4ca476655f645aee7bce9217fdd46f35f99ae1b38c8",
+        "bytes": 14647159,
+        "checksum_verified": true
+      }
+    ],
+    "processed_sha256": "12845584faf34d74e7d56450bba76d56a5b477743197aaaa55140f5b712ad1dc"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "date": "2024-01-03",
+    "book_rows": 15491931,
+    "book_rejected": 0,
+    "out_of_order_or_duplicate": 0,
+    "trade_rows": 2295158,
+    "trade_rejected": 0,
+    "publication_delay_max_ms": 128396,
+    "grid_rows": 86400,
+    "fresh_quote_rows": 85584,
+    "missing_initial_quote_rows": 1,
+    "publication_delay_sample_p50_ms": 6.0,
+    "publication_delay_sample_p99_ms": 19.0,
+    "trade_availability_lag_ms": 1000,
+    "sources": [
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/bookTicker/BTCUSDT/BTCUSDT-bookTicker-2024-01-03.zip",
+        "file": "BTCUSDT-bookTicker-2024-01-03.zip",
+        "sha256": "af3718446b48a9ad5b27c0e9abf01bdd26bc2e1484bbf8886150566bb0f4996c",
+        "bytes": 172011047,
+        "checksum_verified": true
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/aggTrades/BTCUSDT/BTCUSDT-aggTrades-2024-01-03.zip",
+        "file": "BTCUSDT-aggTrades-2024-01-03.zip",
+        "sha256": "0715ff82388dff2b390ba816c4d981f422f5f4d676108cdbb497d62b3d8d509d",
+        "bytes": 29557346,
+        "checksum_verified": true
+      }
+    ],
+    "processed_sha256": "4af1a59284ccda4e7251b4abb9513e3ef78712e8326065d738eaab67113189fb"
+  },
+  {
+    "symbol": "ETHUSDT",
+    "date": "2024-01-03",
+    "book_rows": 11161431,
+    "book_rejected": 0,
+    "out_of_order_or_duplicate": 0,
+    "trade_rows": 1672933,
+    "trade_rejected": 0,
+    "publication_delay_max_ms": 127748,
+    "grid_rows": 86400,
+    "fresh_quote_rows": 85585,
+    "missing_initial_quote_rows": 1,
+    "publication_delay_sample_p50_ms": 6.0,
+    "publication_delay_sample_p99_ms": 18.0,
+    "trade_availability_lag_ms": 1000,
+    "sources": [
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/bookTicker/ETHUSDT/ETHUSDT-bookTicker-2024-01-03.zip",
+        "file": "ETHUSDT-bookTicker-2024-01-03.zip",
+        "sha256": "53bbdbd01ab700247b52286143aa8a1b8140915bdc7f7af4d52c4173a3086fad",
+        "bytes": 138421429,
+        "checksum_verified": true
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/aggTrades/ETHUSDT/ETHUSDT-aggTrades-2024-01-03.zip",
+        "file": "ETHUSDT-aggTrades-2024-01-03.zip",
+        "sha256": "bf34686eebdf86b213e3ddf98ec6048b279ac8768226596bc9b8892d09aa058c",
+        "bytes": 22812201,
+        "checksum_verified": true
+      }
+    ],
+    "processed_sha256": "a857ac14b85b3bd45619e227eb9b59f98b9548b07b9d8efe6cd1cb8a37b22e46"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "date": "2024-01-04",
+    "book_rows": 15415254,
+    "book_rejected": 0,
+    "out_of_order_or_duplicate": 0,
+    "trade_rows": 1411787,
+    "trade_rejected": 0,
+    "publication_delay_max_ms": 935,
+    "grid_rows": 86400,
+    "fresh_quote_rows": 86395,
+    "missing_initial_quote_rows": 1,
+    "publication_delay_sample_p50_ms": 6.0,
+    "publication_delay_sample_p99_ms": 18.0,
+    "trade_availability_lag_ms": 1000,
+    "sources": [
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/bookTicker/BTCUSDT/BTCUSDT-bookTicker-2024-01-04.zip",
+        "file": "BTCUSDT-bookTicker-2024-01-04.zip",
+        "sha256": "de5852ceeb6f13a054a0c42b54a7df88438f7bcc4f630b5ac50b48e73597e9f6",
+        "bytes": 165687258,
+        "checksum_verified": true
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/aggTrades/BTCUSDT/BTCUSDT-aggTrades-2024-01-04.zip",
+        "file": "BTCUSDT-aggTrades-2024-01-04.zip",
+        "sha256": "848151500e0708d52540c197fce53d1b9ce5cb8e0bf066ecf8758728c940ae92",
+        "bytes": 18384895,
+        "checksum_verified": true
+      }
+    ],
+    "processed_sha256": "c2e7854135b81321f44a5a06d680d8c71cd561d67c63c3930a89c2e78c273d27"
+  },
+  {
+    "symbol": "ETHUSDT",
+    "date": "2024-01-04",
+    "book_rows": 9260958,
+    "book_rejected": 0,
+    "out_of_order_or_duplicate": 0,
+    "trade_rows": 846744,
+    "trade_rejected": 0,
+    "publication_delay_max_ms": 887,
+    "grid_rows": 86400,
+    "fresh_quote_rows": 86393,
+    "missing_initial_quote_rows": 1,
+    "publication_delay_sample_p50_ms": 6.0,
+    "publication_delay_sample_p99_ms": 18.0,
+    "trade_availability_lag_ms": 1000,
+    "sources": [
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/bookTicker/ETHUSDT/ETHUSDT-bookTicker-2024-01-04.zip",
+        "file": "ETHUSDT-bookTicker-2024-01-04.zip",
+        "sha256": "4ed2fe6c079a4c21daf89f85cc7f555d6e8d41a5808dfdee062e32ace30f4716",
+        "bytes": 114293097,
+        "checksum_verified": true
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/aggTrades/ETHUSDT/ETHUSDT-aggTrades-2024-01-04.zip",
+        "file": "ETHUSDT-aggTrades-2024-01-04.zip",
+        "sha256": "31b86e3f0959113e1bcea570ecd785b7e6d1fc4b7aece65c3f8b31aca9a304db",
+        "bytes": 11814271,
+        "checksum_verified": true
+      }
+    ],
+    "processed_sha256": "5558f29455d4bca583e83ccaf4be7302d73bcf9cafd060c5a92e74166269e93f"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "date": "2024-01-05",
+    "book_rows": 15319837,
+    "book_rejected": 0,
+    "out_of_order_or_duplicate": 0,
+    "trade_rows": 1617499,
+    "trade_rejected": 0,
+    "publication_delay_max_ms": 1128,
+    "grid_rows": 86400,
+    "fresh_quote_rows": 86395,
+    "missing_initial_quote_rows": 1,
+    "publication_delay_sample_p50_ms": 6.0,
+    "publication_delay_sample_p99_ms": 21.0,
+    "trade_availability_lag_ms": 1000,
+    "sources": [
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/bookTicker/BTCUSDT/BTCUSDT-bookTicker-2024-01-05.zip",
+        "file": "BTCUSDT-bookTicker-2024-01-05.zip",
+        "sha256": "f5162aadbe9e96f029fb4850a3c13b116795c04033490b44d0618f38bf4a9ee1",
+        "bytes": 163130229,
+        "checksum_verified": true
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/aggTrades/BTCUSDT/BTCUSDT-aggTrades-2024-01-05.zip",
+        "file": "BTCUSDT-aggTrades-2024-01-05.zip",
+        "sha256": "54cfc506daff386c40ac923d161cac31f7c53d55c412165c7daefdca1d428416",
+        "bytes": 20807819,
+        "checksum_verified": true
+      }
+    ],
+    "processed_sha256": "c29d9bf4feabb09ef3753b2583d7f00fa461f5d97d7ccfd7674c8b9007e6dde5"
+  },
+  {
+    "symbol": "ETHUSDT",
+    "date": "2024-01-05",
+    "book_rows": 9748700,
+    "book_rejected": 0,
+    "out_of_order_or_duplicate": 0,
+    "trade_rows": 918614,
+    "trade_rejected": 0,
+    "publication_delay_max_ms": 1091,
+    "grid_rows": 86400,
+    "fresh_quote_rows": 86393,
+    "missing_initial_quote_rows": 1,
+    "publication_delay_sample_p50_ms": 6.0,
+    "publication_delay_sample_p99_ms": 23.0,
+    "trade_availability_lag_ms": 1000,
+    "sources": [
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/bookTicker/ETHUSDT/ETHUSDT-bookTicker-2024-01-05.zip",
+        "file": "ETHUSDT-bookTicker-2024-01-05.zip",
+        "sha256": "bb41162c6dbc55d28f59ec01b25d286eec57824cfad0ce486e8e3664278fdafd",
+        "bytes": 117810782,
+        "checksum_verified": true
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/aggTrades/ETHUSDT/ETHUSDT-aggTrades-2024-01-05.zip",
+        "file": "ETHUSDT-aggTrades-2024-01-05.zip",
+        "sha256": "cc708e1856d7cdcbf031f8e360386b78635cb9da8942b0f3fbb0404c6b9d2244",
+        "bytes": 12724978,
+        "checksum_verified": true
+      }
+    ],
+    "processed_sha256": "80d1f05e5f2ec3552fa3d372f8004dffb88c71a348fff748ebfb8981f98e4d42"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "date": "2024-01-06",
+    "book_rows": 10709154,
+    "book_rejected": 0,
+    "out_of_order_or_duplicate": 0,
+    "trade_rows": 656685,
+    "trade_rejected": 0,
+    "publication_delay_max_ms": 959,
+    "grid_rows": 86400,
+    "fresh_quote_rows": 86396,
+    "missing_initial_quote_rows": 1,
+    "publication_delay_sample_p50_ms": 6.0,
+    "publication_delay_sample_p99_ms": 16.0,
+    "trade_availability_lag_ms": 1000,
+    "sources": [
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/bookTicker/BTCUSDT/BTCUSDT-bookTicker-2024-01-06.zip",
+        "file": "BTCUSDT-bookTicker-2024-01-06.zip",
+        "sha256": "0e9eedcad8383cda707a023c7f3812ae642110e90281f0bbc9d3645307ae9a04",
+        "bytes": 112562367,
+        "checksum_verified": true
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/aggTrades/BTCUSDT/BTCUSDT-aggTrades-2024-01-06.zip",
+        "file": "BTCUSDT-aggTrades-2024-01-06.zip",
+        "sha256": "69eeb19e486d14f2d073eec7e57e91a3b280e2f5b42122306d132ad9e6ea6659",
+        "bytes": 8645906,
+        "checksum_verified": true
+      }
+    ],
+    "processed_sha256": "50e0c3baae933dfbee79a79b6fc6f374450bfd64bd9031c799173f70893a5380"
+  },
+  {
+    "symbol": "ETHUSDT",
+    "date": "2024-01-06",
+    "book_rows": 8573229,
+    "book_rejected": 0,
+    "out_of_order_or_duplicate": 0,
+    "trade_rows": 463908,
+    "trade_rejected": 0,
+    "publication_delay_max_ms": 932,
+    "grid_rows": 86400,
+    "fresh_quote_rows": 86398,
+    "missing_initial_quote_rows": 1,
+    "publication_delay_sample_p50_ms": 5.0,
+    "publication_delay_sample_p99_ms": 14.0,
+    "trade_availability_lag_ms": 1000,
+    "sources": [
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/bookTicker/ETHUSDT/ETHUSDT-bookTicker-2024-01-06.zip",
+        "file": "ETHUSDT-bookTicker-2024-01-06.zip",
+        "sha256": "d02cf83584891b56e856af85902a274ed79995c4fa758dcb106678555d45f9e3",
+        "bytes": 100786477,
+        "checksum_verified": true
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/aggTrades/ETHUSDT/ETHUSDT-aggTrades-2024-01-06.zip",
+        "file": "ETHUSDT-aggTrades-2024-01-06.zip",
+        "sha256": "4d7d4cc883e258f6a891404258da475f958218acc80028c678451447e37964c1",
+        "bytes": 6522116,
+        "checksum_verified": true
+      }
+    ],
+    "processed_sha256": "bfe0b313bdc970c1731bc044c6e8e5f215151a7e395721d4a69ed99b20465369"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "date": "2024-01-07",
+    "book_rows": 12100941,
+    "book_rejected": 0,
+    "out_of_order_or_duplicate": 0,
+    "trade_rows": 785460,
+    "trade_rejected": 0,
+    "publication_delay_max_ms": 914,
+    "grid_rows": 86400,
+    "fresh_quote_rows": 86397,
+    "missing_initial_quote_rows": 1,
+    "publication_delay_sample_p50_ms": 6.0,
+    "publication_delay_sample_p99_ms": 15.0,
+    "trade_availability_lag_ms": 1000,
+    "sources": [
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/bookTicker/BTCUSDT/BTCUSDT-bookTicker-2024-01-07.zip",
+        "file": "BTCUSDT-bookTicker-2024-01-07.zip",
+        "sha256": "4536005a9fa212335a4ee6ea3687e2825fc899da880da46047e029914f26fd9c",
+        "bytes": 128614742,
+        "checksum_verified": true
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/aggTrades/BTCUSDT/BTCUSDT-aggTrades-2024-01-07.zip",
+        "file": "BTCUSDT-aggTrades-2024-01-07.zip",
+        "sha256": "a326f1f0c4833b35c43ffd98fbbdc2d0779612044c2b05278060a8e39ed640ad",
+        "bytes": 10348979,
+        "checksum_verified": true
+      }
+    ],
+    "processed_sha256": "0a1bae9b152913d078d3dd1e153251715d8d1e15c0b965dcf8adcf2a82a9f835"
+  },
+  {
+    "symbol": "ETHUSDT",
+    "date": "2024-01-07",
+    "book_rows": 10835665,
+    "book_rejected": 0,
+    "out_of_order_or_duplicate": 0,
+    "trade_rows": 533736,
+    "trade_rejected": 0,
+    "publication_delay_max_ms": 886,
+    "grid_rows": 86400,
+    "fresh_quote_rows": 86396,
+    "missing_initial_quote_rows": 1,
+    "publication_delay_sample_p50_ms": 5.0,
+    "publication_delay_sample_p99_ms": 12.0,
+    "trade_availability_lag_ms": 1000,
+    "sources": [
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/bookTicker/ETHUSDT/ETHUSDT-bookTicker-2024-01-07.zip",
+        "file": "ETHUSDT-bookTicker-2024-01-07.zip",
+        "sha256": "2a3979a5c9525f9a3aca94dba9da8baa7b155cc2ec5f7abe6556bef4d44b3369",
+        "bytes": 120288513,
+        "checksum_verified": true
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/aggTrades/ETHUSDT/ETHUSDT-aggTrades-2024-01-07.zip",
+        "file": "ETHUSDT-aggTrades-2024-01-07.zip",
+        "sha256": "715d86b633e567194a2ef74acdf191537d7364678ea7275aab672c7bcc38590a",
+        "bytes": 7507111,
+        "checksum_verified": true
+      }
+    ],
+    "processed_sha256": "39a882927cc91710fdc1c974b32392dacf9189b7415d965fe2e45494ad93f26b"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "date": "2024-01-08",
+    "book_rows": 19245805,
+    "book_rejected": 0,
+    "out_of_order_or_duplicate": 0,
+    "trade_rows": 1943603,
+    "trade_rejected": 0,
+    "publication_delay_max_ms": 1146,
+    "grid_rows": 86400,
+    "fresh_quote_rows": 86398,
+    "missing_initial_quote_rows": 1,
+    "publication_delay_sample_p50_ms": 6.0,
+    "publication_delay_sample_p99_ms": 19.0,
+    "trade_availability_lag_ms": 1000,
+    "sources": [
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/bookTicker/BTCUSDT/BTCUSDT-bookTicker-2024-01-08.zip",
+        "file": "BTCUSDT-bookTicker-2024-01-08.zip",
+        "sha256": "87716a48513fd29a49d32dab5b78ab0788dd58259a307bf5224f9a4a4c59b4ec",
+        "bytes": 206972981,
+        "checksum_verified": true
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/aggTrades/BTCUSDT/BTCUSDT-aggTrades-2024-01-08.zip",
+        "file": "BTCUSDT-aggTrades-2024-01-08.zip",
+        "sha256": "7d15ab68d191e3ee445f1df149ac235d8492a96fe5cc774e5ccdab78d2414963",
+        "bytes": 25344854,
+        "checksum_verified": true
+      }
+    ],
+    "processed_sha256": "8fbb16d53174582b9e0273aa8cdcd52451c73ad715e8e38d3125de466bb3f067"
+  },
+  {
+    "symbol": "ETHUSDT",
+    "date": "2024-01-08",
+    "book_rows": 18468747,
+    "book_rejected": 0,
+    "out_of_order_or_duplicate": 0,
+    "trade_rows": 1130205,
+    "trade_rejected": 0,
+    "publication_delay_max_ms": 1146,
+    "grid_rows": 86400,
+    "fresh_quote_rows": 86399,
+    "missing_initial_quote_rows": 1,
+    "publication_delay_sample_p50_ms": 5.0,
+    "publication_delay_sample_p99_ms": 13.0,
+    "trade_availability_lag_ms": 1000,
+    "sources": [
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/bookTicker/ETHUSDT/ETHUSDT-bookTicker-2024-01-08.zip",
+        "file": "ETHUSDT-bookTicker-2024-01-08.zip",
+        "sha256": "a3eef2bf7bb1d033c0b174f43ad33c7314d45bd5ee85119d767659fcb5f6555f",
+        "bytes": 201456380,
+        "checksum_verified": true
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/aggTrades/ETHUSDT/ETHUSDT-aggTrades-2024-01-08.zip",
+        "file": "ETHUSDT-aggTrades-2024-01-08.zip",
+        "sha256": "f42e27e8d58b981f7b642e36a838f07056753cdbdd29d6a0122567a0dccffa7a",
+        "bytes": 15735163,
+        "checksum_verified": true
+      }
+    ],
+    "processed_sha256": "d84086c7e5010e90ecc4381192464b590c47df4d5ada195c1e220b655f08781f"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "date": "2024-01-09",
+    "book_rows": 22767271,
+    "book_rejected": 0,
+    "out_of_order_or_duplicate": 0,
+    "trade_rows": 2227000,
+    "trade_rejected": 0,
+    "publication_delay_max_ms": 30426,
+    "grid_rows": 86400,
+    "fresh_quote_rows": 86398,
+    "missing_initial_quote_rows": 1,
+    "publication_delay_sample_p50_ms": 6.0,
+    "publication_delay_sample_p99_ms": 5321.189999999919,
+    "trade_availability_lag_ms": 1000,
+    "sources": [
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/bookTicker/BTCUSDT/BTCUSDT-bookTicker-2024-01-09.zip",
+        "file": "BTCUSDT-bookTicker-2024-01-09.zip",
+        "sha256": "9f614197d81cee6f93ca7b28d686e43d82a8a7e5f281bc30b521ec6c0c9f37db",
+        "bytes": 227271577,
+        "checksum_verified": true
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/aggTrades/BTCUSDT/BTCUSDT-aggTrades-2024-01-09.zip",
+        "file": "BTCUSDT-aggTrades-2024-01-09.zip",
+        "sha256": "18eada7c01e582aa422d02024295e74bcc8262616a0a2b216d5074f853b71cb0",
+        "bytes": 28513073,
+        "checksum_verified": true
+      }
+    ],
+    "processed_sha256": "7c2c6cf7582c63ee3762405ca2299e63e3680a28261d7544ea0a9bb7546023da"
+  },
+  {
+    "symbol": "ETHUSDT",
+    "date": "2024-01-09",
+    "book_rows": 21202220,
+    "book_rejected": 0,
+    "out_of_order_or_duplicate": 0,
+    "trade_rows": 1453172,
+    "trade_rejected": 0,
+    "publication_delay_max_ms": 30425,
+    "grid_rows": 86400,
+    "fresh_quote_rows": 86396,
+    "missing_initial_quote_rows": 1,
+    "publication_delay_sample_p50_ms": 6.0,
+    "publication_delay_sample_p99_ms": 56.97999999999956,
+    "trade_availability_lag_ms": 1000,
+    "sources": [
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/bookTicker/ETHUSDT/ETHUSDT-bookTicker-2024-01-09.zip",
+        "file": "ETHUSDT-bookTicker-2024-01-09.zip",
+        "sha256": "09cc65ba77a296d4cfc1b9f7f938d4b4c1957224ba12b96100fba73533f5badd",
+        "bytes": 220887319,
+        "checksum_verified": true
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/aggTrades/ETHUSDT/ETHUSDT-aggTrades-2024-01-09.zip",
+        "file": "ETHUSDT-aggTrades-2024-01-09.zip",
+        "sha256": "06df76ce1c545df179a96689ba82f6c444e5b58231e3a1e3d65b8ad96680f4b0",
+        "bytes": 19971404,
+        "checksum_verified": true
+      }
+    ],
+    "processed_sha256": "2f4066e0dd07a3d1701a37d15b33263d257ab1fb754e65b23fb6140077d77c25"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "date": "2024-01-10",
+    "book_rows": 27295396,
+    "book_rejected": 0,
+    "out_of_order_or_duplicate": 0,
+    "trade_rows": 3014236,
+    "trade_rejected": 0,
+    "publication_delay_max_ms": 1026,
+    "grid_rows": 86400,
+    "fresh_quote_rows": 86398,
+    "missing_initial_quote_rows": 1,
+    "publication_delay_sample_p50_ms": 6.0,
+    "publication_delay_sample_p99_ms": 24.0,
+    "trade_availability_lag_ms": 1000,
+    "sources": [
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/bookTicker/BTCUSDT/BTCUSDT-bookTicker-2024-01-10.zip",
+        "file": "BTCUSDT-bookTicker-2024-01-10.zip",
+        "sha256": "91e94d62cf7a457a0a6e0cc0b7d0eeee7d7acf990d2b5b6aba45776de8fd3698",
+        "bytes": 266695896,
+        "checksum_verified": true
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/aggTrades/BTCUSDT/BTCUSDT-aggTrades-2024-01-10.zip",
+        "file": "BTCUSDT-aggTrades-2024-01-10.zip",
+        "sha256": "b141293c084cfeddfb6d872538b2e61b1ea3e1c29637d16f889a3a7e3e31c965",
+        "bytes": 38346920,
+        "checksum_verified": true
+      }
+    ],
+    "processed_sha256": "8631e06470e32f82afe64dc09029fd7661e211d487779825fbb9e51c95051bd6"
+  },
+  {
+    "symbol": "ETHUSDT",
+    "date": "2024-01-10",
+    "book_rows": 34521911,
+    "book_rejected": 0,
+    "out_of_order_or_duplicate": 0,
+    "trade_rows": 2577691,
+    "trade_rejected": 0,
+    "publication_delay_max_ms": 874,
+    "grid_rows": 86400,
+    "fresh_quote_rows": 86396,
+    "missing_initial_quote_rows": 1,
+    "publication_delay_sample_p50_ms": 6.0,
+    "publication_delay_sample_p99_ms": 14.0,
+    "trade_availability_lag_ms": 1000,
+    "sources": [
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/bookTicker/ETHUSDT/ETHUSDT-bookTicker-2024-01-10.zip",
+        "file": "ETHUSDT-bookTicker-2024-01-10.zip",
+        "sha256": "448ddef5459936c1a16cd4ccec07b2e9e87e3a6bc068e8f43836e1ce0bae323e",
+        "bytes": 328992260,
+        "checksum_verified": true
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/aggTrades/ETHUSDT/ETHUSDT-aggTrades-2024-01-10.zip",
+        "file": "ETHUSDT-aggTrades-2024-01-10.zip",
+        "sha256": "9953de719f24949f50db1569b120e3e913ac3d94496a1ee6083649c1c8f743f8",
+        "bytes": 35225304,
+        "checksum_verified": true
+      }
+    ],
+    "processed_sha256": "748e47c8555c7c04c5a37b647371e3324d3f981ab1033148b59fbb3b47756692"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "date": "2024-01-11",
+    "book_rows": 33466411,
+    "book_rejected": 0,
+    "out_of_order_or_duplicate": 0,
+    "trade_rows": 2764196,
+    "trade_rejected": 0,
+    "publication_delay_max_ms": 1481,
+    "grid_rows": 86400,
+    "fresh_quote_rows": 86394,
+    "missing_initial_quote_rows": 1,
+    "publication_delay_sample_p50_ms": 6.0,
+    "publication_delay_sample_p99_ms": 28.0,
+    "trade_availability_lag_ms": 1000,
+    "sources": [
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/bookTicker/BTCUSDT/BTCUSDT-bookTicker-2024-01-11.zip",
+        "file": "BTCUSDT-bookTicker-2024-01-11.zip",
+        "sha256": "b3c79a54ebcebb126061eb3cd634fff1cb20603e61837441d706febe824656f4",
+        "bytes": 304541155,
+        "checksum_verified": true
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/aggTrades/BTCUSDT/BTCUSDT-aggTrades-2024-01-11.zip",
+        "file": "BTCUSDT-aggTrades-2024-01-11.zip",
+        "sha256": "f5b1638ab61108675228e0a30654efbcff9c867a97dffc69ed1f1ff9d11ba576",
+        "bytes": 35191286,
+        "checksum_verified": true
+      }
+    ],
+    "processed_sha256": "3cab569036a51d6dc0d27af20f22c48cfa404426160238c24f9756daa9f19f1d"
+  },
+  {
+    "symbol": "ETHUSDT",
+    "date": "2024-01-11",
+    "book_rows": 37339318,
+    "book_rejected": 0,
+    "out_of_order_or_duplicate": 0,
+    "trade_rows": 1879136,
+    "trade_rejected": 0,
+    "publication_delay_max_ms": 1375,
+    "grid_rows": 86400,
+    "fresh_quote_rows": 86393,
+    "missing_initial_quote_rows": 1,
+    "publication_delay_sample_p50_ms": 6.0,
+    "publication_delay_sample_p99_ms": 14.0,
+    "trade_availability_lag_ms": 1000,
+    "sources": [
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/bookTicker/ETHUSDT/ETHUSDT-bookTicker-2024-01-11.zip",
+        "file": "ETHUSDT-bookTicker-2024-01-11.zip",
+        "sha256": "b7b43d32c99ee8bfcf7db6826f6c491398f46627a011b290c626b34e0459b1ca",
+        "bytes": 332878475,
+        "checksum_verified": true
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/aggTrades/ETHUSDT/ETHUSDT-aggTrades-2024-01-11.zip",
+        "file": "ETHUSDT-aggTrades-2024-01-11.zip",
+        "sha256": "d19269def4ef04330a92e5759f072fbfa9eeee378e1500d97bbca9855bd4382b",
+        "bytes": 25765190,
+        "checksum_verified": true
+      }
+    ],
+    "processed_sha256": "da4d4a2d6a9f7d7e1893130785d781ae9f34a5d3d74eae870d725f1860ba449e"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "date": "2024-01-12",
+    "book_rows": 33647896,
+    "book_rejected": 0,
+    "out_of_order_or_duplicate": 0,
+    "trade_rows": 2403360,
+    "trade_rejected": 0,
+    "publication_delay_max_ms": 2909,
+    "grid_rows": 86400,
+    "fresh_quote_rows": 86398,
+    "missing_initial_quote_rows": 1,
+    "publication_delay_sample_p50_ms": 6.0,
+    "publication_delay_sample_p99_ms": 20.0,
+    "trade_availability_lag_ms": 1000,
+    "sources": [
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/bookTicker/BTCUSDT/BTCUSDT-bookTicker-2024-01-12.zip",
+        "file": "BTCUSDT-bookTicker-2024-01-12.zip",
+        "sha256": "fc57ba62c691870dec044f5ba345205e2cfab1cf1661ee3908a8ca0f7911ed54",
+        "bytes": 310974221,
+        "checksum_verified": true
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/aggTrades/BTCUSDT/BTCUSDT-aggTrades-2024-01-12.zip",
+        "file": "BTCUSDT-aggTrades-2024-01-12.zip",
+        "sha256": "66bac1816ddefe8cb3b693986c20f056410ad59f05fa1d3281f724c22913e347",
+        "bytes": 30888838,
+        "checksum_verified": true
+      }
+    ],
+    "processed_sha256": "abd033c9f71fa142d8588086d04cafdfcdd8df86a6f1a9030f3c0bf5abe327f8"
+  },
+  {
+    "symbol": "ETHUSDT",
+    "date": "2024-01-12",
+    "book_rows": 34193424,
+    "book_rejected": 0,
+    "out_of_order_or_duplicate": 0,
+    "trade_rows": 2233693,
+    "trade_rejected": 0,
+    "publication_delay_max_ms": 1632,
+    "grid_rows": 86400,
+    "fresh_quote_rows": 86397,
+    "missing_initial_quote_rows": 1,
+    "publication_delay_sample_p50_ms": 6.0,
+    "publication_delay_sample_p99_ms": 14.0,
+    "trade_availability_lag_ms": 1000,
+    "sources": [
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/bookTicker/ETHUSDT/ETHUSDT-bookTicker-2024-01-12.zip",
+        "file": "ETHUSDT-bookTicker-2024-01-12.zip",
+        "sha256": "457e34933f014f0ed310d5cdf6b49c1ba4cd107d99e66b1428410786255e0f0a",
+        "bytes": 324166247,
+        "checksum_verified": true
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/aggTrades/ETHUSDT/ETHUSDT-aggTrades-2024-01-12.zip",
+        "file": "ETHUSDT-aggTrades-2024-01-12.zip",
+        "sha256": "d5e7ceb1da5cb85df3ebf6aea551762a1f19c140794ba45ac0ab49c63e903cc6",
+        "bytes": 30575089,
+        "checksum_verified": true
+      }
+    ],
+    "processed_sha256": "365d6bcb95790755830da2a2f6f22ca135e21f8e262e92a96267eafab42eef6c"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "date": "2024-01-13",
+    "book_rows": 24881894,
+    "book_rejected": 0,
+    "out_of_order_or_duplicate": 0,
+    "trade_rows": 937293,
+    "trade_rejected": 0,
+    "publication_delay_max_ms": 1351,
+    "grid_rows": 86400,
+    "fresh_quote_rows": 86395,
+    "missing_initial_quote_rows": 1,
+    "publication_delay_sample_p50_ms": 6.0,
+    "publication_delay_sample_p99_ms": 15.0,
+    "trade_availability_lag_ms": 1000,
+    "sources": [
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/bookTicker/BTCUSDT/BTCUSDT-bookTicker-2024-01-13.zip",
+        "file": "BTCUSDT-bookTicker-2024-01-13.zip",
+        "sha256": "a379614ce9ae0d680e7c3fa760df1cc9abbcc995f501746a24204b261e39c555",
+        "bytes": 218756532,
+        "checksum_verified": true
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/aggTrades/BTCUSDT/BTCUSDT-aggTrades-2024-01-13.zip",
+        "file": "BTCUSDT-aggTrades-2024-01-13.zip",
+        "sha256": "13daf9d0bf6bf6679f4297708eeb5aae42f5cd92c36dc9122bc81fa964fc9d57",
+        "bytes": 12316866,
+        "checksum_verified": true
+      }
+    ],
+    "processed_sha256": "ae03fe639d32081c38583e23d1e41933986bbefc937144c222668a5c86d93df3"
+  },
+  {
+    "symbol": "ETHUSDT",
+    "date": "2024-01-13",
+    "book_rows": 24022299,
+    "book_rejected": 0,
+    "out_of_order_or_duplicate": 0,
+    "trade_rows": 924490,
+    "trade_rejected": 0,
+    "publication_delay_max_ms": 1236,
+    "grid_rows": 86400,
+    "fresh_quote_rows": 86395,
+    "missing_initial_quote_rows": 1,
+    "publication_delay_sample_p50_ms": 6.0,
+    "publication_delay_sample_p99_ms": 13.0,
+    "trade_availability_lag_ms": 1000,
+    "sources": [
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/bookTicker/ETHUSDT/ETHUSDT-bookTicker-2024-01-13.zip",
+        "file": "ETHUSDT-bookTicker-2024-01-13.zip",
+        "sha256": "0e844aeb206b0a2dedd02dda83886ab2cd874d27b4b4fd6d8a7eb2e68a5ecac0",
+        "bytes": 221099531,
+        "checksum_verified": true
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/aggTrades/ETHUSDT/ETHUSDT-aggTrades-2024-01-13.zip",
+        "file": "ETHUSDT-aggTrades-2024-01-13.zip",
+        "sha256": "81a6f83fd58986bbbe6501c40203897fb9474fbd4c5891938ebf8d8ed1a80829",
+        "bytes": 12757617,
+        "checksum_verified": true
+      }
+    ],
+    "processed_sha256": "4f21f32bb1403ded889576c0a64f5e0e74448cc0a5741766274cd1047f68349b"
+  },
+  {
+    "symbol": "BTCUSDT",
+    "date": "2024-01-14",
+    "book_rows": 20023202,
+    "book_rejected": 0,
+    "out_of_order_or_duplicate": 0,
+    "trade_rows": 802515,
+    "trade_rejected": 0,
+    "publication_delay_max_ms": 1215,
+    "grid_rows": 86400,
+    "fresh_quote_rows": 86396,
+    "missing_initial_quote_rows": 1,
+    "publication_delay_sample_p50_ms": 6.0,
+    "publication_delay_sample_p99_ms": 15.0,
+    "trade_availability_lag_ms": 1000,
+    "sources": [
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/bookTicker/BTCUSDT/BTCUSDT-bookTicker-2024-01-14.zip",
+        "file": "BTCUSDT-bookTicker-2024-01-14.zip",
+        "sha256": "e7d4be21b08085c39e6e74119b022a2fe4afc661835f0fd0066c64c8df77da3e",
+        "bytes": 181192741,
+        "checksum_verified": true
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/aggTrades/BTCUSDT/BTCUSDT-aggTrades-2024-01-14.zip",
+        "file": "BTCUSDT-aggTrades-2024-01-14.zip",
+        "sha256": "60aef45bc81962b230f41fd41c1ff1bddaa69893a3d93f61b77c85b0cca29c32",
+        "bytes": 10575353,
+        "checksum_verified": true
+      }
+    ],
+    "processed_sha256": "c76d1ecf3d9ffd4963da0721e41ed6e2a791f9e84f4c09243960d5d51677feda"
+  },
+  {
+    "symbol": "ETHUSDT",
+    "date": "2024-01-14",
+    "book_rows": 20051782,
+    "book_rejected": 0,
+    "out_of_order_or_duplicate": 0,
+    "trade_rows": 778421,
+    "trade_rejected": 0,
+    "publication_delay_max_ms": 1143,
+    "grid_rows": 86400,
+    "fresh_quote_rows": 86395,
+    "missing_initial_quote_rows": 1,
+    "publication_delay_sample_p50_ms": 6.0,
+    "publication_delay_sample_p99_ms": 12.0,
+    "trade_availability_lag_ms": 1000,
+    "sources": [
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/bookTicker/ETHUSDT/ETHUSDT-bookTicker-2024-01-14.zip",
+        "file": "ETHUSDT-bookTicker-2024-01-14.zip",
+        "sha256": "4d461475e9e574dfea3051f1516ec6d1e19501e38c91d33c07ed7d357c1d9f51",
+        "bytes": 186820573,
+        "checksum_verified": true
+      },
+      {
+        "url": "https://data.binance.vision/data/futures/um/daily/aggTrades/ETHUSDT/ETHUSDT-aggTrades-2024-01-14.zip",
+        "file": "ETHUSDT-aggTrades-2024-01-14.zip",
+        "sha256": "d0e33f1c27d5a515aa32811ebd3f7d8a2ea3823b1c6736179047328b0c9b80e2",
+        "bytes": 10741833,
+        "checksum_verified": true
+      }
+    ],
+    "processed_sha256": "5d0a7d59ff7946f63bdc1e323c170111d0cb43d9e6df8912e9ad6c4e8dc20e55"
+  }
+]

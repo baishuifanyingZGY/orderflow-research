@@ -1,0 +1,33 @@
+{
+  "symbol": "ETHUSDT",
+  "date": "2024-01-08",
+  "book_rows": 18468747,
+  "book_rejected": 0,
+  "out_of_order_or_duplicate": 0,
+  "trade_rows": 1130205,
+  "trade_rejected": 0,
+  "publication_delay_max_ms": 1146,
+  "grid_rows": 86400,
+  "fresh_quote_rows": 86399,
+  "missing_initial_quote_rows": 1,
+  "publication_delay_sample_p50_ms": 5.0,
+  "publication_delay_sample_p99_ms": 13.0,
+  "trade_availability_lag_ms": 1000,
+  "sources": [
+    {
+      "url": "https://data.binance.vision/data/futures/um/daily/bookTicker/ETHUSDT/ETHUSDT-bookTicker-2024-01-08.zip",
+      "file": "ETHUSDT-bookTicker-2024-01-08.zip",
+      "sha256": "a3eef2bf7bb1d033c0b174f43ad33c7314d45bd5ee85119d767659fcb5f6555f",
+      "bytes": 201456380,
+      "checksum_verified": true
+    },
+    {
+      "url": "https://data.binance.vision/data/futures/um/daily/aggTrades/ETHUSDT/ETHUSDT-aggTrades-2024-01-08.zip",
+      "file": "ETHUSDT-aggTrades-2024-01-08.zip",
+      "sha256": "f42e27e8d58b981f7b642e36a838f07056753cdbdd29d6a0122567a0dccffa7a",
+      "bytes": 15735163,
+      "checksum_verified": true
+    }
+  ],
+  "processed_sha256": "d84086c7e5010e90ecc4381192464b590c47df4d5ada195c1e220b655f08781f"
+}

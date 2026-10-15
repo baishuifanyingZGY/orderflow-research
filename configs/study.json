@@ -1,0 +1,16 @@
+{
+  "study_id": "bbo-orderflow-2024-01-v1",
+  "symbols": ["BTCUSDT", "ETHUSDT"],
+  "start_date": "2024-01-01",
+  "end_date": "2024-01-14",
+  "train_end": "2024-01-07",
+  "validation_end": "2024-01-10",
+  "test_end": "2024-01-14",
+  "grid_seconds": 1,
+  "trade_availability_lag_ms": 1000,
+  "seed": 1729,
+  "budget_cap_usd": 100,
+  "data_spend_usd": 0,
+  "data_source": "Binance Vision USD-M daily bookTicker and aggTrades",
+  "data_license": "CC BY-NC-SA 4.0, subject to Binance Vision Dataset Terms"
+}

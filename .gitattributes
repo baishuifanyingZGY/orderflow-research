@@ -1,0 +1,6 @@
+*.pdf binary
+*.png binary
+*.joblib binary
+docs/figures/*.svg linguist-generated=true
+results/* linguist-generated=true
+data/audit/* linguist-generated=true

@@ -1,0 +1,18 @@
+{
+  "estimand": "equal-day mean of control MSE minus selected-model MSE; positive favors selected",
+  "mean_improvement_bps_squared": 0.0626459178132606,
+  "percentile_95_ci_bps_squared": [
+    0.041000935090869856,
+    0.08429090053565134
+  ],
+  "independent_clusters": 4,
+  "cluster": "UTC day, both symbols together",
+  "daily_improvements": {
+    "2024-01-11": 0.07962998428167427,
+    "2024-01-12": 0.08895181678962841,
+    "2024-01-13": 0.04720661935844191,
+    "2024-01-14": 0.034795250823297805
+  },
+  "repetitions": 5000,
+  "warning": "Only four test-day clusters in the default protocol; the interval is descriptive and not reliable evidence of statistical significance."
+}

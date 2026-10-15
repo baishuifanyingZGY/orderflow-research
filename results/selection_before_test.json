@@ -1,0 +1,8 @@
+{
+  "selected_model": "hist_gradient_boosting",
+  "criterion": "lowest validation MSE; ties use predeclared model order",
+  "absolute_signal_threshold_bps": 0.4037829113586629,
+  "threshold_quantile": 0.9,
+  "test_not_used_for_selection": true,
+  "refit_on_validation": false
+}

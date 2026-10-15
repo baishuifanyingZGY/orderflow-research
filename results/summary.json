@@ -1,0 +1,591 @@
+{
+  "selection": {
+    "selected_model": "hist_gradient_boosting",
+    "criterion": "lowest validation MSE; ties use predeclared model order",
+    "absolute_signal_threshold_bps": 0.4037829113586629,
+    "threshold_quantile": 0.9,
+    "test_not_used_for_selection": true,
+    "refit_on_validation": false
+  },
+  "sample_sizes": {
+    "train_sampled": 241421,
+    "validation": 518023,
+    "test": 690678,
+    "all_input_seconds": 2419200
+  },
+  "features_by_model": {
+    "zero": [],
+    "ridge_control": [
+      "return_1s_bps",
+      "return_5s_bps",
+      "spread_bps",
+      "volatility_30s_bps"
+    ],
+    "ridge_quote_only": [
+      "return_1s_bps",
+      "return_5s_bps",
+      "spread_bps",
+      "volatility_30s_bps",
+      "queue_imbalance",
+      "normalized_ofi_1s",
+      "normalized_ofi_5s",
+      "quote_intensity_5s"
+    ],
+    "ridge_orderflow": [
+      "return_1s_bps",
+      "return_5s_bps",
+      "spread_bps",
+      "volatility_30s_bps",
+      "queue_imbalance",
+      "normalized_ofi_1s",
+      "normalized_ofi_5s",
+      "trade_imbalance_5s",
+      "quote_intensity_5s",
+      "trade_intensity_5s"
+    ],
+    "ridge_liquidity": [
+      "return_1s_bps",
+      "return_5s_bps",
+      "spread_bps",
+      "volatility_30s_bps",
+      "queue_imbalance",
+      "normalized_ofi_1s",
+      "normalized_ofi_5s",
+      "trade_imbalance_5s",
+      "quote_intensity_5s",
+      "trade_intensity_5s",
+      "log_depth",
+      "ofi_x_spread",
+      "imbalance_x_spread",
+      "ofi_x_volatility",
+      "imbalance_x_volatility"
+    ],
+    "hist_gradient_boosting": [
+      "return_1s_bps",
+      "return_5s_bps",
+      "spread_bps",
+      "volatility_30s_bps",
+      "queue_imbalance",
+      "normalized_ofi_1s",
+      "normalized_ofi_5s",
+      "trade_imbalance_5s",
+      "quote_intensity_5s",
+      "trade_intensity_5s",
+      "log_depth",
+      "ofi_x_spread",
+      "imbalance_x_spread",
+      "ofi_x_volatility",
+      "imbalance_x_volatility"
+    ]
+  },
+  "metrics": [
+    {
+      "split": "validation",
+      "model": "zero",
+      "n": 518023,
+      "mse": 2.482442719698706,
+      "mae": 0.6914316316745991,
+      "r2_vs_zero": 0.0,
+      "correlation": null,
+      "directional_accuracy": 0.0,
+      "nonzero_target_count": 276614
+    },
+    {
+      "split": "validation",
+      "model": "ridge_control",
+      "n": 518023,
+      "mse": 2.501629868865048,
+      "mae": 0.7082700595133875,
+      "r2_vs_zero": -0.007729140742740226,
+      "correlation": 0.03712674065938319,
+      "directional_accuracy": 0.574887749716211,
+      "nonzero_target_count": 276614
+    },
+    {
+      "split": "validation",
+      "model": "ridge_quote_only",
+      "n": 518023,
+      "mse": 2.446057341852825,
+      "mae": 0.7263943147077144,
+      "r2_vs_zero": 0.014657086569271227,
+      "correlation": 0.12415273432503647,
+      "directional_accuracy": 0.6852328515548743,
+      "nonzero_target_count": 276614
+    },
+    {
+      "split": "validation",
+      "model": "ridge_orderflow",
+      "n": 518023,
+      "mse": 2.4432568852926555,
+      "mae": 0.7262881071894426,
+      "r2_vs_zero": 0.015785191777076046,
+      "correlation": 0.12849421446261575,
+      "directional_accuracy": 0.686396928571945,
+      "nonzero_target_count": 276614
+    },
+    {
+      "split": "validation",
+      "model": "ridge_liquidity",
+      "n": 518023,
+      "mse": 2.4771090623576497,
+      "mae": 0.7258723984526468,
+      "r2_vs_zero": 0.0021485520285049464,
+      "correlation": 0.10551458698527695,
+      "directional_accuracy": 0.6872537181776772,
+      "nonzero_target_count": 276614
+    },
+    {
+      "split": "validation",
+      "model": "hist_gradient_boosting",
+      "n": 518023,
+      "mse": 2.421965872135386,
+      "mae": 0.7108245581064996,
+      "r2_vs_zero": 0.024361830016629726,
+      "correlation": 0.15617640449803613,
+      "directional_accuracy": 0.6882334227479447,
+      "nonzero_target_count": 276614
+    },
+    {
+      "split": "test",
+      "model": "zero",
+      "n": 690678,
+      "mse": 1.4115353266775703,
+      "mae": 0.5674853724600132,
+      "r2_vs_zero": 0.0,
+      "correlation": null,
+      "directional_accuracy": 0.0,
+      "nonzero_target_count": 342887
+    },
+    {
+      "split": "test",
+      "model": "ridge_control",
+      "n": 690678,
+      "mse": 1.4118543471369824,
+      "mae": 0.5831812170367788,
+      "r2_vs_zero": -0.00022600954675566776,
+      "correlation": 0.055621788399412384,
+      "directional_accuracy": 0.5821101412418669,
+      "nonzero_target_count": 342887
+    },
+    {
+      "split": "test",
+      "model": "ridge_quote_only",
+      "n": 690678,
+      "mse": 1.3633971869603578,
+      "mae": 0.6068974025262471,
+      "r2_vs_zero": 0.03410338998069473,
+      "correlation": 0.18567343745890205,
+      "directional_accuracy": 0.7015576560207882,
+      "nonzero_target_count": 342887
+    },
+    {
+      "split": "test",
+      "model": "ridge_orderflow",
+      "n": 690678,
+      "mse": 1.362511591101563,
+      "mae": 0.6068459013264771,
+      "r2_vs_zero": 0.034730788985209315,
+      "correlation": 0.18701287499898678,
+      "directional_accuracy": 0.7021321893218465,
+      "nonzero_target_count": 342887
+    },
+    {
+      "split": "test",
+      "model": "ridge_liquidity",
+      "n": 690678,
+      "mse": 1.3603827853828059,
+      "mae": 0.60478375308524,
+      "r2_vs_zero": 0.036238938075439986,
+      "correlation": 0.19039982253156507,
+      "directional_accuracy": 0.704045356050244,
+      "nonzero_target_count": 342887
+    },
+    {
+      "split": "test",
+      "model": "hist_gradient_boosting",
+      "n": 690678,
+      "mse": 1.349208339575887,
+      "mae": 0.5871020767449124,
+      "r2_vs_zero": 0.04415545677371513,
+      "correlation": 0.2106468496124849,
+      "directional_accuracy": 0.7034766555745771,
+      "nonzero_target_count": 342887
+    }
+  ],
+  "bootstrap": {
+    "estimand": "equal-day mean of control MSE minus selected-model MSE; positive favors selected",
+    "mean_improvement_bps_squared": 0.0626459178132606,
+    "percentile_95_ci_bps_squared": [
+      0.041000935090869856,
+      0.08429090053565134
+    ],
+    "independent_clusters": 4,
+    "cluster": "UTC day, both symbols together",
+    "daily_improvements": {
+      "2024-01-11": 0.07962998428167427,
+      "2024-01-12": 0.08895181678962841,
+      "2024-01-13": 0.04720661935844191,
+      "2024-01-14": 0.034795250823297805
+    },
+    "repetitions": 5000,
+    "warning": "Only four test-day clusters in the default protocol; the interval is descriptive and not reliable evidence of statistical significance."
+  },
+  "cost_sensitivity": [
+    {
+      "symbol": "ALL",
+      "entry_delay_seconds": 0,
+      "fee_bps_per_side": 0.0,
+      "n": 6091,
+      "mean_gross_bps": 0.65628781918853,
+      "mean_net_bps": 0.65628781918853,
+      "median_net_bps": 0.6171518058434805,
+      "positive_fraction": 0.6138565096043342
+    },
+    {
+      "symbol": "ALL",
+      "entry_delay_seconds": 0,
+      "fee_bps_per_side": 1.0,
+      "n": 6091,
+      "mean_gross_bps": 0.65628781918853,
+      "mean_net_bps": -1.3437185141014587,
+      "median_net_bps": -1.3829137665358902,
+      "positive_fraction": 0.29075685437530785
+    },
+    {
+      "symbol": "ALL",
+      "entry_delay_seconds": 0,
+      "fee_bps_per_side": 5.0,
+      "n": 6091,
+      "mean_gross_bps": 0.65628781918853,
+      "mean_net_bps": -9.343743847261413,
+      "median_net_bps": -9.383176056053372,
+      "positive_fraction": 0.017402725332457725
+    },
+    {
+      "symbol": "ALL",
+      "entry_delay_seconds": 1,
+      "fee_bps_per_side": 0.0,
+      "n": 6091,
+      "mean_gross_bps": 0.059487105313493265,
+      "mean_net_bps": 0.059487105313493265,
+      "median_net_bps": 0.021675400047863783,
+      "positive_fraction": 0.5004104416351994
+    },
+    {
+      "symbol": "ALL",
+      "entry_delay_seconds": 1,
+      "fee_bps_per_side": 1.0,
+      "n": 6091,
+      "mean_gross_bps": 0.059487105313493265,
+      "mean_net_bps": -1.9405178036381305,
+      "median_net_bps": -1.9783622034063333,
+      "positive_fraction": 0.22048924642915776
+    },
+    {
+      "symbol": "ALL",
+      "entry_delay_seconds": 1,
+      "fee_bps_per_side": 5.0,
+      "n": 6091,
+      "mean_gross_bps": 0.059487105313493265,
+      "mean_net_bps": -9.940537439444626,
+      "median_net_bps": -9.978261097256327,
+      "positive_fraction": 0.014119192250861928
+    },
+    {
+      "symbol": "ALL",
+      "entry_delay_seconds": 2,
+      "fee_bps_per_side": 0.0,
+      "n": 6089,
+      "mean_gross_bps": -0.003788375332746446,
+      "mean_net_bps": -0.003788375332746446,
+      "median_net_bps": -0.02332179293245771,
+      "positive_fraction": 0.47281983905403185
+    },
+    {
+      "symbol": "ALL",
+      "entry_delay_seconds": 2,
+      "fee_bps_per_side": 1.0,
+      "n": 6089,
+      "mean_gross_bps": -0.003788375332746446,
+      "mean_net_bps": -2.003791952801393,
+      "median_net_bps": -2.023320813942709,
+      "positive_fraction": 0.21662013466907537
+    },
+    {
+      "symbol": "ALL",
+      "entry_delay_seconds": 2,
+      "fee_bps_per_side": 5.0,
+      "n": 6089,
+      "mean_gross_bps": -0.003788375332746446,
+      "mean_net_bps": -10.00380626267598,
+      "median_net_bps": -10.023307496972599,
+      "positive_fraction": 0.015930366234192805
+    },
+    {
+      "symbol": "BTCUSDT",
+      "entry_delay_seconds": 0,
+      "fee_bps_per_side": 0.0,
+      "n": 2547,
+      "mean_gross_bps": 0.672632963815642,
+      "mean_net_bps": 0.672632963815642,
+      "median_net_bps": 0.6324288429707501,
+      "positive_fraction": 0.6226933647428347
+    },
+    {
+      "symbol": "BTCUSDT",
+      "entry_delay_seconds": 0,
+      "fee_bps_per_side": 1.0,
+      "n": 2547,
+      "mean_gross_bps": 0.672632963815642,
+      "mean_net_bps": -1.327377390844514,
+      "median_net_bps": -1.3675055718159046,
+      "positive_fraction": 0.2811150372987829
+    },
+    {
+      "symbol": "BTCUSDT",
+      "entry_delay_seconds": 0,
+      "fee_bps_per_side": 5.0,
+      "n": 2547,
+      "mean_gross_bps": 0.672632963815642,
+      "mean_net_bps": -9.327418809485138,
+      "median_net_bps": -9.367243230962524,
+      "positive_fraction": 0.020808794660384766
+    },
+    {
+      "symbol": "BTCUSDT",
+      "entry_delay_seconds": 1,
+      "fee_bps_per_side": 0.0,
+      "n": 2547,
+      "mean_gross_bps": 0.0813170488238624,
+      "mean_net_bps": 0.0813170488238624,
+      "median_net_bps": 0.042633514846453384,
+      "positive_fraction": 0.5041224970553593
+    },
+    {
+      "symbol": "BTCUSDT",
+      "entry_delay_seconds": 1,
+      "fee_bps_per_side": 1.0,
+      "n": 2547,
+      "mean_gross_bps": 0.0813170488238624,
+      "mean_net_bps": -1.9186875248295332,
+      "median_net_bps": -1.95736009012632,
+      "positive_fraction": 0.20691009030231644
+    },
+    {
+      "symbol": "BTCUSDT",
+      "entry_delay_seconds": 1,
+      "fee_bps_per_side": 5.0,
+      "n": 2547,
+      "mean_gross_bps": 0.0813170488238624,
+      "mean_net_bps": -9.918705819443113,
+      "median_net_bps": -9.957373131364568,
+      "positive_fraction": 0.020023557126030624
+    },
+    {
+      "symbol": "BTCUSDT",
+      "entry_delay_seconds": 2,
+      "fee_bps_per_side": 0.0,
+      "n": 2546,
+      "mean_gross_bps": 0.00583189550327907,
+      "mean_net_bps": 0.00583189550327907,
+      "median_net_bps": -0.02171274578482027,
+      "positive_fraction": 0.46936370777690495
+    },
+    {
+      "symbol": "BTCUSDT",
+      "entry_delay_seconds": 2,
+      "fee_bps_per_side": 1.0,
+      "n": 2546,
+      "mean_gross_bps": 0.00583189550327907,
+      "mean_net_bps": -1.9941695758931484,
+      "median_net_bps": -2.021775922096446,
+      "positive_fraction": 0.20267085624509035
+    },
+    {
+      "symbol": "BTCUSDT",
+      "entry_delay_seconds": 2,
+      "fee_bps_per_side": 5.0,
+      "n": 2546,
+      "mean_gross_bps": 0.00583189550327907,
+      "mean_net_bps": -9.99417546147886,
+      "median_net_bps": -10.021759310095296,
+      "positive_fraction": 0.0204241948153967
+    },
+    {
+      "symbol": "ETHUSDT",
+      "entry_delay_seconds": 0,
+      "fee_bps_per_side": 0.0,
+      "n": 3544,
+      "mean_gross_bps": 0.6445408995030745,
+      "mean_net_bps": 0.6445408995030745,
+      "median_net_bps": 0.5983380097093149,
+      "positive_fraction": 0.6075056433408578
+    },
+    {
+      "symbol": "ETHUSDT",
+      "entry_delay_seconds": 0,
+      "fee_bps_per_side": 1.0,
+      "n": 3544,
+      "mean_gross_bps": 0.6445408995030745,
+      "mean_net_bps": -1.355462543710781,
+      "median_net_bps": -1.4016619949783378,
+      "positive_fraction": 0.297686230248307
+    },
+    {
+      "symbol": "ETHUSDT",
+      "entry_delay_seconds": 0,
+      "fee_bps_per_side": 5.0,
+      "n": 3544,
+      "mean_gross_bps": 0.6445408995030745,
+      "mean_net_bps": -9.355476316566202,
+      "median_net_bps": -9.40166201372895,
+      "positive_fraction": 0.014954853273137697
+    },
+    {
+      "symbol": "ETHUSDT",
+      "entry_delay_seconds": 1,
+      "fee_bps_per_side": 0.0,
+      "n": 3544,
+      "mean_gross_bps": 0.04379837333806716,
+      "mean_net_bps": 0.04379837333806716,
+      "median_net_bps": 0.0,
+      "positive_fraction": 0.49774266365688485
+    },
+    {
+      "symbol": "ETHUSDT",
+      "entry_delay_seconds": 1,
+      "fee_bps_per_side": 1.0,
+      "n": 3544,
+      "mean_gross_bps": 0.04379837333806716,
+      "mean_net_bps": -1.9562067765855056,
+      "median_net_bps": -1.9999960914253236,
+      "positive_fraction": 0.23024830699774265
+    },
+    {
+      "symbol": "ETHUSDT",
+      "entry_delay_seconds": 1,
+      "fee_bps_per_side": 5.0,
+      "n": 3544,
+      "mean_gross_bps": 0.04379837333806716,
+      "mean_net_bps": -9.956227376279797,
+      "median_net_bps": -9.999980457126618,
+      "positive_fraction": 0.009875846501128669
+    },
+    {
+      "symbol": "ETHUSDT",
+      "entry_delay_seconds": 2,
+      "fee_bps_per_side": 0.0,
+      "n": 3543,
+      "mean_gross_bps": -0.01070150249857227,
+      "mean_net_bps": -0.01070150249857227,
+      "median_net_bps": -0.03853438326767053,
+      "positive_fraction": 0.47530341518487157
+    },
+    {
+      "symbol": "ETHUSDT",
+      "entry_delay_seconds": 2,
+      "fee_bps_per_side": 1.0,
+      "n": 3543,
+      "mean_gross_bps": -0.01070150249857227,
+      "mean_net_bps": -2.010706593390834,
+      "median_net_bps": -2.0386685784128726,
+      "positive_fraction": 0.22664408693197854
+    },
+    {
+      "symbol": "ETHUSDT",
+      "entry_delay_seconds": 2,
+      "fee_bps_per_side": 5.0,
+      "n": 3543,
+      "mean_gross_bps": -0.01070150249857227,
+      "mean_net_bps": -10.01072695695988,
+      "median_net_bps": -10.038340544551591,
+      "positive_fraction": 0.012701100762066046
+    }
+  ],
+  "config": {
+    "seed": 1729,
+    "train_dates": [
+      "2024-01-01",
+      "2024-01-02",
+      "2024-01-03",
+      "2024-01-04",
+      "2024-01-05",
+      "2024-01-06",
+      "2024-01-07"
+    ],
+    "validation_dates": [
+      "2024-01-08",
+      "2024-01-09",
+      "2024-01-10"
+    ],
+    "test_dates": [
+      "2024-01-11",
+      "2024-01-12",
+      "2024-01-13",
+      "2024-01-14"
+    ],
+    "warmup_seconds": 60,
+    "max_quote_age_ms": 1000,
+    "train_stride_seconds": 5,
+    "target_horizons_seconds": [
+      1,
+      5,
+      10
+    ],
+    "primary_horizon_seconds": 1,
+    "ridge_alpha": 100.0,
+    "hgb": {
+      "max_iter": 100,
+      "max_depth": 3,
+      "max_leaf_nodes": 15,
+      "l2_regularization": 10.0,
+      "learning_rate": 0.05,
+      "early_stopping": false
+    },
+    "bootstrap_repetitions": 5000,
+    "signal_threshold_quantile": 0.9,
+    "trade_grid_seconds": 10,
+    "hold_seconds": 5,
+    "entry_delays_seconds": [
+      0,
+      1,
+      2
+    ],
+    "fees_bps_per_side": [
+      0.0,
+      1.0,
+      5.0
+    ]
+  },
+  "data_scope": {
+    "symbols": [
+      "BTCUSDT",
+      "ETHUSDT"
+    ],
+    "dates": [
+      "2024-01-01",
+      "2024-01-02",
+      "2024-01-03",
+      "2024-01-04",
+      "2024-01-05",
+      "2024-01-06",
+      "2024-01-07",
+      "2024-01-08",
+      "2024-01-09",
+      "2024-01-10",
+      "2024-01-11",
+      "2024-01-12",
+      "2024-01-13",
+      "2024-01-14"
+    ]
+  },
+  "limitations": [
+    "Two cryptocurrency perpetual futures; no claim of US-equity market validity.",
+    "Fourteen calendar days with only four test-day clusters; event and market-regime concentration.",
+    "One-second snapshots, event-time availability proxy, and assumed trade delay cannot replicate exchange-to-trader latency.",
+    "Quote-crossing returns omit market impact, queue dynamics, funding, and operational frictions; they are hypothetical fixed-notional scenarios.",
+    "Fee scenarios are sensitivity parameters, not a claim about applicable exchange fee schedules.",
+    "Quote-side markouts are conditional proxies, not execution-level realized maker returns.",
+    "All final model comparisons except the validation-selected model are descriptive diagnostics."
+  ]
+}

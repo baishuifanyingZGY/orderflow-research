@@ -1,0 +1,10 @@
+recent_trade_flow,horizon_seconds,n,mean_future_mid_change_bps,hypothetical_quote_side_markout_bps,measurement
+sell,1,343153,-0.009957070175351372,0.006739768619818399,hypothetical quote-side endpoint proxy; no actual fill or queue evidence
+sell,5,343127,-0.03203566288792662,-0.015338597339062503,hypothetical quote-side endpoint proxy; no actual fill or queue evidence
+sell,10,343106,-0.050534699061008576,-0.033837517241160235,hypothetical quote-side endpoint proxy; no actual fill or queue evidence
+balanced_or_no_trade,1,4,0.08660308910529713,,hypothetical quote-side endpoint proxy; no actual fill or queue evidence
+balanced_or_no_trade,5,4,0.16430573274356375,,hypothetical quote-side endpoint proxy; no actual fill or queue evidence
+balanced_or_no_trade,10,4,-0.049376537261391906,,hypothetical quote-side endpoint proxy; no actual fill or queue evidence
+buy,1,347521,0.005518874808798147,0.010670206959486232,hypothetical quote-side endpoint proxy; no actual fill or queue evidence
+buy,5,347494,0.010492585140280435,0.005696384215666897,hypothetical quote-side endpoint proxy; no actual fill or queue evidence
+buy,10,347475,0.007699931818726189,0.008489023760951305,hypothetical quote-side endpoint proxy; no actual fill or queue evidence

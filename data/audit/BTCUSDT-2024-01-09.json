@@ -1,0 +1,33 @@
+{
+  "symbol": "BTCUSDT",
+  "date": "2024-01-09",
+  "book_rows": 22767271,
+  "book_rejected": 0,
+  "out_of_order_or_duplicate": 0,
+  "trade_rows": 2227000,
+  "trade_rejected": 0,
+  "publication_delay_max_ms": 30426,
+  "grid_rows": 86400,
+  "fresh_quote_rows": 86398,
+  "missing_initial_quote_rows": 1,
+  "publication_delay_sample_p50_ms": 6.0,
+  "publication_delay_sample_p99_ms": 5321.189999999919,
+  "trade_availability_lag_ms": 1000,
+  "sources": [
+    {
+      "url": "https://data.binance.vision/data/futures/um/daily/bookTicker/BTCUSDT/BTCUSDT-bookTicker-2024-01-09.zip",
+      "file": "BTCUSDT-bookTicker-2024-01-09.zip",
+      "sha256": "9f614197d81cee6f93ca7b28d686e43d82a8a7e5f281bc30b521ec6c0c9f37db",
+      "bytes": 227271577,
+      "checksum_verified": true
+    },
+    {
+      "url": "https://data.binance.vision/data/futures/um/daily/aggTrades/BTCUSDT/BTCUSDT-aggTrades-2024-01-09.zip",
+      "file": "BTCUSDT-aggTrades-2024-01-09.zip",
+      "sha256": "18eada7c01e582aa422d02024295e74bcc8262616a0a2b216d5074f853b71cb0",
+      "bytes": 28513073,
+      "checksum_verified": true
+    }
+  ],
+  "processed_sha256": "7c2c6cf7582c63ee3762405ca2299e63e3680a28261d7544ea0a9bb7546023da"
+}

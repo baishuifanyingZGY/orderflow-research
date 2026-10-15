@@ -1,0 +1,10 @@
+{
+  "selected_model": "hist_gradient_boosting",
+  "quote_rows": 538977734,
+  "aggregate_trade_rows": 40271937,
+  "test_r2_vs_zero": 0.0441554567737151,
+  "mse_improvement_vs_control": 0.04437143795189047,
+  "cost_1s_delay_1bp_per_side": -1.9405178036381303,
+  "result_sentence": "Boosted trees was selected using validation MSE. On the four-day test, its R\u00b2 relative to a zero-return forecast was 4.416%, and its MSE was 4.437% lower than the price-control Ridge model.",
+  "cost_sentence": "At a one-second assumed entry delay and one basis point of fees per side, the mean hypothetical five-second round trip was -1.9405 bps across 6,091 eligible decisions."
+}
