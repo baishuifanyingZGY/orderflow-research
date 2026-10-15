@@ -6,7 +6,7 @@
 
 数据：BTCUSDT、ETHUSDT 永续合约，2024 年 1 月 1-14 日。约 5.39 亿条报价更新、4,027 万条聚合成交记录，数据费用 $0。它是短期历史市场微观结构研究，没有美股实证、真实成交或机构内部策略的含义。
 
-核心结果：验证集选出的树模型，测试集相对零预测的 R² 为 4.415%，比价格控制模型降低约 4.437% MSE。假设 1 秒入场延迟、每边 1 bp 手续费，五秒往返平均结果为 -1.941 bp。只有四个测试日，因此不据此声称持久盈利或强统计显著性。
+核心结果：验证集选出的树模型，测试集相对零预测的 R² 为 4.416%，比价格控制模型降低约 4.437% MSE。假设 1 秒入场延迟、每边 1 bp 手续费，五秒往返平均结果为 -1.941 bp。只有四个测试日，因此不据此声称持久盈利或强统计显著性。
 
 ## 90-second English introduction
 
@@ -93,7 +93,7 @@ replication with licensed data. Keep the current results intact.
 | Why a zero forecast? | Short-horizon returns are noisy and often zero. Complexity must beat a strong trivial reference. |
 | Why a control model? | To test whether order flow adds information beyond recent returns, spread and volatility. |
 | Is contemporaneous price impact an alpha? | No. Explaining a price movement during the OFI window does not establish prediction of a later movement. |
-| Does 4.415% R² mean a 4.415% return? | No. It is the reduction in squared forecast error relative to zero prediction. |
+| Does 4.416% R² mean a 4.416% return? | No. It is the reduction in squared forecast error relative to zero prediction. |
 | Why preserve equal-time updates? | Several book transitions can occur within one millisecond. Removing them before OFI can change the factor. |
 | What was the source-data bug? | One official daily file interleaved early and late records. A streaming filter would discard valid data; external ordering retained the entire day. |
 | What does the maker flag mean? | `is_buyer_maker=true` means the buyer was passive, so the aggressive trade was a sell. |
